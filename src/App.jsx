@@ -1,10 +1,18 @@
+import { useState, createContext } from 'react';
 import list from './assets/Data/lista.json'
+import Info from './components/Info/Info'
+import Dashboard from './components/Dashboard/Dashboard'
+
+export const AppContext = createContext()
 
 function App() {
-  console.log(list);
+  
+  const [index,setIndex]=useState(0)
   return <div className='App'>
-    
-    <img src={list[0].src} alt={list[0].artist} width='50%' />
+    <AppContext.Provider value={{index,setIndex, list}}>
+    <Info list={list} index={index}/>
+    <Dashboard/>
+    </AppContext.Provider>
   </div>
 }
 

@@ -1,0 +1,28 @@
+.dashboard{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 2rem;
+}
+.dashboard .range,.dashboard .play{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:0 0.5rem ;
+}
+.dashboard .range span{
+  font-size: 1.2rem;
+}
+.dashboard input{
+  width: 100%;
+  margin: 0 0.3rem;
+}
+.dashboard .play{
+  margin-top: 1rem;
+  padding:0 5rem;
+}
+.dashboard .play button{
+ background-color: transparent;
+ border: none;
+ font-size: 2rem;
+}
