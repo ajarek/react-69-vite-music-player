@@ -17,7 +17,7 @@ body {
   width: 100%;
   min-height: 100vh;
   margin: 0 auto;
-  background-color: darkorange;
+  background-color: #c2bfbf;
   padding: 1rem 0.5rem;
 }
 @media (min-width: 376px) {
