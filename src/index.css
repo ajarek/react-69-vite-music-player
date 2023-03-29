@@ -13,14 +13,14 @@ body {
   justify-content: center;
 }
 #root {
-  max-width: 375px;
+  max-width: 425px;
   width: 100%;
   min-height: 100vh;
   margin: 0 auto;
   background-color: #c2bfbf;
   padding: 1rem 0.5rem;
 }
-@media (min-width: 376px) {
+@media (min-width: 425px) {
   #root {
     border-radius: 40px;
     box-shadow: 0 0 10px #000;
