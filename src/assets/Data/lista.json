@@ -3,28 +3,28 @@
     "id": "1",
     "title":"Summertime ",
     "artist":"Ella Fitzgerald & Louis Armstrong",
-    "path":"/muza/Summertime.mp3",
-    "src":"/images/summertime.jpg"
+    "path":"./muza/Summertime.mp3",
+    "src":"./images/summertime.jpg"
   },
   {
     "id": "2",
     "title":"Killing Me Softly ",
     "artist":"Frank Sinatra",
-    "path":"/muza/Killing-me-softly.mp3",
-    "src":"/images/killing.jpg"
+    "path":"./muza/Killing-me-softly.mp3",
+    "src":"./images/killing.jpg"
   },
   {
     "id": "3",
     "title":" Nathalie ",
     "artist":"Gilbert Becaud ",
-    "path":"/muza/Nathalie.mp3",
-    "src":"/images/Nathali.jpg"
+    "path":"./muza/Nathalie.mp3",
+    "src":"./images/Nathali.jpg"
   },
   {
     "id": "4",
     "title":"What A Wonderful World ",
     "artist":"Louis Armstrong",
-    "path":"/muza/What-a-wonderful-world.mp3",
-    "src":"/images/Wonderful.jpg"
+    "path":"./muza/What-a-wonderful-world.mp3",
+    "src":"./images/Wonderful.jpg"
   }
 ]
