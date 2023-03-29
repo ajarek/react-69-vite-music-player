@@ -18,16 +18,18 @@
   height: 200px;
   overflow: hidden;
   /* animation: rotation 25s infinite linear; */
+  box-shadow:  0 0 10px  rgba(0,0,0,0.8);
 }
 .info .img img{
   width: 100%;
   object-fit: cover;
+ 
 }
 @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(1590deg);
+    transform: rotate(3600deg);
   }
 }
