@@ -1,10 +1,11 @@
-.info{
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
-.info .artist,.info .title{
+.info .artist,
+.info .title {
   margin-bottom: 2rem;
   height: 65px;
   display: flex;
@@ -12,18 +13,16 @@
   justify-content: center;
   text-align: center;
 }
-.info .img{
+.info .img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
   overflow: hidden;
-  /* animation: rotation 25s infinite linear; */
-  box-shadow:  0 0 10px  rgba(0,0,0,0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
-.info .img img{
+.info .img img {
   width: 100%;
   object-fit: cover;
- 
 }
 @keyframes rotation {
   from {

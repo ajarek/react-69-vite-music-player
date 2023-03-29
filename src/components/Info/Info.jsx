@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useContext } from 'react'
 import { AppContext } from '../../App'
 import './Info.css'
 const Info = () => {
-  const { index, setIndex, list, isPlay,setIsPlay } = useContext(AppContext)
+  const { index, list, isPlay } = useContext(AppContext)
 
   return (
     <div className='info'>
@@ -16,8 +16,11 @@ const Info = () => {
         <img
           src={list[index].src}
           alt={list[index].artist}
-          style={isPlay?{animation: `rotation 40s infinite linear`}:{animation:'none'}}
-        
+          style={
+            isPlay
+              ? { animation: `rotation 40s infinite linear` }
+              : { animation: 'none' }
+          }
         />
       </div>
     </div>
