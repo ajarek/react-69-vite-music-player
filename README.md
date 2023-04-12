@@ -1,5 +1,5 @@
 # react-69-vite-music-player
-
+https://ajarek.github.io/react-69-vite-music-player/
 #### Technologies used: react, react-icons.
 #### Hooks used: useState, useContext, useEfect, useRef.
 ## Setup:
